@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaShoppingCart } from "react-icons/fa";
+import { Cart } from '../Cart/Cart';
 
 import {ReactComponent as LogoRoma} from './logoroma.svg';
 
@@ -47,15 +47,6 @@ export const Navbar = () => {
                 }
             }
         }
-
-        .nav-cart-icon {
-            font-size: 25px;
-            color: #4c3832;
-
-            &:hover {
-                color: #717171;
-            }
-        }
     `;
     return (
         <div>
@@ -68,7 +59,7 @@ export const Navbar = () => {
                             <a href="#">Products</a>
                             <a href="#">About Us</a>
                         </div>
-                        <div className="nav-cart"><FaShoppingCart className="nav-cart-icon" /></div>
+                    <Cart />
                     </div>
                 </div>
             </NavContainer>
