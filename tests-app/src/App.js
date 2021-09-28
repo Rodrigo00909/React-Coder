@@ -4,7 +4,7 @@ import { ItemListContainer } from './components/ItemListContainer/ItemListContai
 import { Navbar } from './components/Navbar/Navbar';
 
 function App() {
-  const mensaje = "basado en tu última visita"
+  const mensaje = "basado en tu última compra"
   return (
     <div>
       <Navbar />

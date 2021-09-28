@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Cart } from '../Cart/Cart';
+import { CartWidget } from '../Cart/CartWidget';
 
 import {ReactComponent as LogoRoma} from './logoroma.svg';
 
@@ -59,7 +59,7 @@ export const Navbar = () => {
                             <a href="#">Products</a>
                             <a href="#">About Us</a>
                         </div>
-                    <Cart />
+                    <CartWidget />
                     </div>
                 </div>
             </NavContainer>

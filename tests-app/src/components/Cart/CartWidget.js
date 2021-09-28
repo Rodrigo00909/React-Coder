@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { FaShoppingCart } from "react-icons/fa";
 
-export const Cart = () => {
+export const CartWidget = () => {
     const CartContainer = styled.div`
     
     .nav-cart-icon {
