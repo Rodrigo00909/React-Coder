@@ -18,7 +18,7 @@ export const ItemListContainer = ({mensaje}) => {
     return (
         <ItemListDiv>
             <div className="ItemList-center">
-                Historial: {mensaje}
+                Historial::: {mensaje}
             </div>
         </ItemListDiv>
     )
